@@ -1,0 +1,32 @@
+#skeleton {
+  animation: skeletonAnimation 0.5s;
+}
+@keyframes skeletonAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#bolt g {
+  opacity: 0;
+  animation: dropIn 6s ease forwards infinite;
+  animation-delay: calc(var(--order) * 0.1s);
+}
+@keyframes dropIn {
+  20% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  30%,
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+  }
+}
