@@ -1,0 +1,114 @@
+/* AXIS ANIMATION */
+#y-axis {
+  stroke-dasharray: 475;
+  stroke-dashoffset: 475;
+  animation: animate-y-axis 0.5s ease forwards;
+}
+@keyframes animate-y-axis {
+  0% {
+    stroke-dashoffset: 475;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+#x-axis {
+  stroke-dasharray: 464.5;
+  stroke-dashoffset: 464.5;
+  animation: animate-x-axis 0.5s ease forwards;
+}
+@keyframes animate-x-axis {
+  0% {
+    stroke-dashoffset: 464.5;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+#t_min {
+  opacity: 0;
+  animation: axisXText 0.5s ease forwards;
+}
+@keyframes axisXText {
+  0% {
+    opacity: 0;
+    transform: translateY(5%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+#mAU {
+  opacity: 0;
+  animation: axisYText 0.5s ease forwards;
+}
+@keyframes axisYText {
+  0% {
+    opacity: 0;
+    transform: translateX(-5%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+#x-marks path,
+#x-numbers path {
+  opacity: 0;
+  animation: dropXMarks 0.5s ease forwards;
+  animation-delay: calc(var(--order) * 0.1s);
+}
+@keyframes dropXMarks {
+  0% {
+    opacity: 0;
+    transform: translateY(5%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+#y-marks path,
+#y-numbers path {
+  opacity: 0;
+  animation: dropYMarks 0.5s ease forwards;
+  animation-delay: calc(var(--order) * 0.1s);
+}
+@keyframes dropYMarks {
+  0% {
+    opacity: 0;
+    transform: translateX(-5%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+/* CH-LINE AND PEAKS ANIMATION */
+#ch-line {
+  stroke-dasharray: 2115;
+  stroke-dashoffset: 2115;
+  animation: animate-plot 2.5s linear forwards;
+}
+@keyframes animate-plot {
+  20% {
+    stroke-dashoffset: 2115;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+#peaksS path {
+  opacity: 0;
+  animation: fadeS 3s ease forwards;
+  animation-delay: calc(var(--order) * 0.3s);
+}
+@keyframes fadeS {
+  67% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
