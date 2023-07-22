@@ -25,7 +25,7 @@
     stroke-dashoffset: 0;
   }
 }
-#t_h {
+#mz {
   opacity: 0;
   animation: axisXText 0.5s ease forwards;
 }
@@ -39,7 +39,7 @@
     transform: translateY(0%);
   }
 }
-#C_mgL {
+#intensity {
   opacity: 0;
   animation: axisYText 0.5s ease forwards;
 }
@@ -85,76 +85,23 @@
     transform: translateX(0%);
   }
 }
-/* DOTS ANIMATION */
-#dots circle {
+/* MS SPECTRA ANIMATION */
+#ms_spec {
+  transform-origin: 50% 88%;
+  transform: scaleY(5%);
   opacity: 0;
-  animation: dropDots 1.5s ease forwards;
-  animation-delay: calc(var(--order) * 0.05s);
-  transform-origin: center center;
-  transform-box: fill-box;
+  animation: animate-ms 2s ease forwards;
 }
-@keyframes dropDots {
-  33% {
-    opacity: 0;
-    transform: scale(0);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-/* PLOT AND AUC ANIMATION */
-#plot {
-  stroke-dasharray: 912;
-  stroke-dashoffset: 912;
-  animation: animate-plot 2.5s linear forwards;
-}
-@keyframes animate-plot {
-  65% {
-    stroke-dashoffset: 912;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-#auc {
-  opacity: 0;
-  animation: fadeAUC 3s ease forwards;
-}
-@keyframes fadeAUC {
-  83% {
+@keyframes animate-ms {
+  25% {
+    transform: scaleY(5%);
     opacity: 0;
   }
-  100% {
+  30% {
     opacity: 1;
   }
-}
-#lines path,
-#lines line {
-  opacity: 0;
-  animation: linesAnim 3.5s ease forwards;
-  animation-delay: calc(var(--order) * 0.1s);
-}
-@keyframes linesAnim {
-  86% {
-    opacity: 0;
-  }
   100% {
+    transform: scaleY(100%);
     opacity: 1;
-  }
-}
-#plot-marks path {
-  opacity: 0;
-  animation: marksAnim 4s ease forwards;
-  animation-delay: calc(var(--order) * 0.1s);
-}
-@keyframes marksAnim {
-  88% {
-    opacity: 0;
-    transform: translateY(-10%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
   }
 }
