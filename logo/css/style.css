@@ -21,7 +21,7 @@ svg:hover #area {
   20% {
     opacity: 0;
   }
-  90% {
+  80% {
     opacity: 0;
   }
   100% {
@@ -60,7 +60,7 @@ svg:hover #ch_line {
   20% {
     stroke-dashoffset: 270;
   }
-  50% {
+  55% {
     stroke-dashoffset: 270;
   }
   90% {
