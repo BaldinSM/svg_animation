@@ -1,0 +1,17 @@
+svg {
+  cursor: pointer;
+}
+
+svg:hover #axis,
+svg:hover #ch {
+  opacity: 1;
+  animation: inLogoAnimation 2.5s ease forwards;
+}
+@keyframes inLogoAnimation {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

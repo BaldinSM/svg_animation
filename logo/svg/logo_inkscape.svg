@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="142.82149mm"
+   height="21.26296mm"
+   viewBox="0 0 142.82149 21.26296"
+   version="1.1"
+   id="svg666"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   sodipodi:docname="logo_inkscape.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview668"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1893044"
+     inkscape:cx="213.1498"
+     inkscape:cy="74.833659"
+     inkscape:window-width="1512"
+     inkscape:window-height="916"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs663">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15861"
+       id="linearGradient15863"
+       x1="60.370293"
+       y1="71.169998"
+       x2="167.55557"
+       y2="178.57515"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.18743272,0,0,0.18743272,17.394174,28.110559)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient15861">
+      <stop
+         style="stop-color:#4d96e3;stop-opacity:1;"
+         offset="0"
+         id="stop15857" />
+      <stop
+         style="stop-color:#185eb1;stop-opacity:1;"
+         offset="1"
+         id="stop15859" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15861"
+       id="linearGradient18824"
+       x1="91.751045"
+       y1="8.1969166"
+       x2="92.087502"
+       y2="22.095709"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.92808512,0,0,0.92808512,23.451831,33.850213)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-28.008745,-40.965977)">
+    <rect
+       style="mix-blend-mode:multiply;fill:url(#linearGradient15863);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.726366;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect15248"
+       width="21.1112"
+       height="21.1112"
+       x="28.008745"
+       y="40.965977"
+       ry="0.92974669"
+       rx="0.92974669" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;inline-size:135.873;display:inline;fill:#3d5067;fill-opacity:1;stroke-width:0.26457;stroke-miterlimit:30;stroke-dasharray:none"
+       x="29.365906"
+       y="34.03775"
+       id="text1353"
+       transform="matrix(0.99784513,0,0,0.99784513,22.785435,27.120477)"><tspan
+         x="29.365906"
+         y="34.03775"
+         id="tspan1881"><tspan
+           style="font-weight:500;font-family:Roboto;-inkscape-font-specification:'Roboto Medium'"
+           id="tspan1879">Test center of expert evaluation of medications</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6px;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:-0.165px;fill:url(#linearGradient18824);fill-opacity:1;stroke:none;stroke-width:0.275431;stroke-miterlimit:30;stroke-dasharray:none;stroke-opacity:1"
+       x="50.832264"
+       y="54.269356"
+       id="text15681"><tspan
+         id="tspan15679"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:url(#linearGradient18824);fill-opacity:1;stroke:none;stroke-width:0.275431;stroke-opacity:1"
+         x="50.832264"
+         y="54.269356"
+         sodipodi:role="line">Pharm Inn Tech</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:30;stroke-dasharray:none;stroke-opacity:1"
+       d="m 31.401687,59.501411 c 0,0 1.213716,0.0021 1.622443,-0.03596 0.408727,-0.0381 0.679966,-0.123891 0.826402,-0.348017 0.146436,-0.224126 0.214106,-0.741097 0.236374,-0.974989 0.02227,-0.233892 0.801571,-15.672783 0.955325,-15.680979 0.153754,-0.0082 1.509239,14.694448 1.573861,15.11748 0.06462,0.423033 0.189847,0.885483 0.341849,1.130611 0.152001,0.245129 0.34453,0.481621 0.764737,0.61179 0.420207,0.130169 1.61273,0.161422 2.173843,-0.0573 0.561113,-0.218722 0.759092,-0.582168 0.848164,-1.028919 0.08907,-0.446751 0.720193,-13.122535 0.836644,-13.133235 0.116451,-0.0107 1.978718,13.170379 2.141264,13.70965 0.162546,0.539271 0.427587,0.635669 0.695216,0.695216 0.267629,0.05955 2.210785,0.04171 2.210785,0.04171"
+       id="path1654"
+       sodipodi:nodetypes="czzzzzzzzzzzzc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.501727;stroke-miterlimit:30;stroke-dasharray:none;stroke-opacity:1"
+       d="m 32.033344,59.731448 c 0.408727,-0.03836 1.702477,-0.105084 1.848913,-0.330762 0.146436,-0.225677 0.214106,-0.746226 0.236374,-0.981737 0.02227,-0.235511 0.551293,-15.767263 0.955325,-15.789518 0.404032,-0.02225 1.509239,14.796158 1.573861,15.222118 0.06462,0.425961 0.189847,0.891612 0.341849,1.138437 0.152001,0.246826 0.34453,0.327646 0.764737,0.458716 0.420207,0.13107 1.553739,0.162539 2.114852,-0.0577 0.561113,-0.220236 0.818083,-0.428889 0.907155,-0.878732 0.08907,-0.449843 0.395743,-13.213364 0.836644,-13.224139 0.440901,-0.01077 1.978718,13.26154 2.141264,13.804544 0.162546,0.543004 1.371443,0.620405 1.639072,0.680364"
+       id="path1654-8"
+       sodipodi:nodetypes="czzzzzzzzzzc" />
+  </g>
+</svg>
