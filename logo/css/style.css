@@ -15,7 +15,7 @@ svg:hover #axis {
 }
 svg:hover #area {
   opacity: 1;
-  animation: fadeArea 2s ease forwards;
+  animation: fadeArea 2s linear forwards;
 }
 @keyframes fadeArea {
   20% {
