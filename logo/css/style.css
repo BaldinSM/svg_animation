@@ -1,17 +1,72 @@
 svg {
   cursor: pointer;
 }
-
-svg:hover #axis,
-svg:hover #ch {
+svg:hover #axis {
   opacity: 1;
-  animation: inLogoAnimation 2.5s ease forwards;
+  animation: fadeAxis 1s ease forwards;
 }
-@keyframes inLogoAnimation {
+@keyframes fadeAxis {
   50% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+svg:hover #area {
+  opacity: 1;
+  animation: fadeArea 2s ease forwards;
+}
+@keyframes fadeArea {
+  20% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+svg:hover #axis path {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 60;
+  animation: inLogoAnimation 2s linear forwards;
+}
+@keyframes inLogoAnimation {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  20% {
+    stroke-dashoffset: 60;
+  }
+  40% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+svg:hover #ch_line {
+  stroke-dasharray: 270;
+  stroke-dashoffset: 270;
+  animation: chAnimation 2s linear forwards;
+}
+@keyframes chAnimation {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  20% {
+    stroke-dashoffset: 270;
+  }
+  50% {
+    stroke-dashoffset: 270;
+  }
+  90% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
   }
 }
